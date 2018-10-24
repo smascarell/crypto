@@ -90,6 +90,7 @@ class NewsController extends Controller
      * @Method({"GET", "POST"})
      * @Template()
      */
+     
     public function editAction(Request $request, News $news)
     {
         $deleteForm = $this->createDeleteForm($news);
